@@ -37,7 +37,6 @@ def create_vectorstore_from_text(text):
 
 # ✅ 질의응답 체인 구성
 
-
 def create_qa_chain(vectorstore):
     llm = ChatOpenAI(temperature=0.2)
     qa_chain = RetrievalQA.from_chain_type(
