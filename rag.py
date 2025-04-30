@@ -9,9 +9,10 @@ from langchain.chains import RetrievalQA
 import os
 
 # API 키 설정
-
 # ✅ 텍스트 추출 함수
 
+
+# ✅ 텍스트 추출 함수
 
 def extract_text_from_pdf(uploaded_file):
     reader = PdfReader(uploaded_file)
